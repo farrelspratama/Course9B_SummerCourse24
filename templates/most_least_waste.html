@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Most and Least Annual Waste Generation</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <h1 class="mt-5">Most and Least Annual Waste Generation</h1>
+    <h2>Most Waste Generation Each Year</h2>
+    <div>{{ most_waste|safe }}</div>
+    <h2>Least Waste Generation Each Year</h2>
+    <div>{{ least_waste|safe }}</div>
+    <a href="/" class="btn btn-primary mt-3">Back to Home</a>
+</div>
+</body>
+</html>
